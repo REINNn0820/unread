@@ -1,4 +1,4 @@
-* {
+ * {
   margin: 0;
   padding: 0;
   font-family: "SF display", sans-serif;
@@ -12,6 +12,15 @@ header {
   display: flex;
   align-items: center;
 }
+.zurag{
+  height: 18px;
+}
+.divider{
+  height: 18px;
+  width: 0px;
+  border: 0.5px solid #ffffff;
+
+}
 .hero {
   background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0)),
     url("./images/cover.jpg");
@@ -19,12 +28,12 @@ header {
   height: 100vh;
 }
 .hero-content {
-  width: 1000px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 40px;
 }
 .hero-content div {
   width: 50%;
@@ -59,7 +68,7 @@ i {
 .HEADD {
   display: flex;
   align-items: center;
-  gap: 800px;
+  gap: 365px;
 }
 .headr {
   display: flex;
@@ -67,17 +76,39 @@ i {
   align-items: center;
   gap: 20px;
   color: #ffffff;
+  margin-left: 135px;
+  
 }
 .headl {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+.headl p{
+  color: #333333;
+  font-size: 14px;
+}
+.headl h4{
+  color: #ffffff;
+}
 .headr h2 {
   font-weight: 400;
 }
 .headr p {
   color: gray;
+  font-size: 12px;
+}
+.search{
+  width: max-content;
+  display: flex;
+  align-items: center;
+}
+.search-input{
+  outline: none;
+  border: none;
+  color: #333333;
+  background: transparent;
+  margin-left: 14px;
 }
 .lbox {
   height: 40px;
@@ -95,19 +126,62 @@ i {
 .dot {
   background-color: #0078f6;
   border-radius: 50%;
-  height: 10px;
-  width: 10px;
-}
+  height: 5px;
+  width: 5px;
+  animation: blink 2s infinite;
+  }
+  .icons div{
+    margin: 0 15px;
+  }
+
 .fa-bars {
   color: rgba(255, 255, 255, 0.5);
   margin-right: 100px;
 }
 .icons i {
-  font-size: 17px;
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  color: #000;
+  transition: .6s;
+}
+.icons i:hover{
+  color: #fff;
+}
+.icons a{
+  position: relative;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+  text-decoration: none;
 }
 .icons {
-  margin-left: 50px;
-  gap: 20px;
   display: flex;
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  margin: 0;
+  padding: 0;
 }
+.icons div:nth-child(1) a:hover{
+  background-color: #3b5999;
+}
+.icons div:nth-child(2) a:hover{
+  background-color: #e4405f;
+}
+.icons div:nth-child(3) a:hover{
+  background-color: #55acee;
+}
+.icons div:nth-child(4) a:hover{
+  background-color: #0077b5;
+}
+.right h1{
+  font-size: 36px;
+}
+.right h2{
+ font-size: 36px;
+}
+
