@@ -34,6 +34,7 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 40px;
+  justify-content: space-evenly;
 }
 .hero-content div {
   width: 50%;
@@ -41,14 +42,15 @@ header {
 .left {
   background-image: url("./images/21632b19dec071508e1e0ae5f5e153e1.jpg");
   height: 446.4px;
-  width: 446.4px;
-  border-radius: 8px;
-  background-size: 140%;
+  max-width: 446.4px;
+  border-radius: 20px;
+  background-size: 150%;
   background-position: center;
+  transition: all 2s ease;
+  cursor: pointer;
 }
 .left:hover {
-  background-size: 150%;
-  transition: all 1s ease;
+  background-size: 170%;
 }
 .hero-content h1 {
   -webkit-text-stroke: 1px white;
@@ -84,11 +86,12 @@ i {
   gap: 10px;
 }
 .headl p {
-  color: #333333;
+  color: rgb(255, 255, 255, 0.6);
   font-size: 14px;
 }
 .headl h4 {
   color: #ffffff;
+  font-size: 14px;
 }
 .headr h2 {
   font-weight: 400;
@@ -143,10 +146,13 @@ i {
 .icons div {
   margin: 0 15px;
 }
-.hero-content div p {
+.hero-content div h5 {
   color: #0078f6;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-.hero-content div p {
+.hero-content div h5 {
   animation: blink 2s linear infinite;
 }
 
@@ -199,4 +205,24 @@ i {
 }
 .right h2 {
   font-size: 36px;
+}
+.pro {
+  height: 44px;
+  max-width: 44px;
+  border-radius: 50px;
+  background-image: url(./images/joker.jpg);
+  background-size: 100%;
+}
+.pros {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  min-width: 500px;
+  gap: 8px;
+}
+.ner {
+  color: rgb(255, 255, 255, 0.6);
+}
+.onsar {
+  color: #ffffff;
 }
