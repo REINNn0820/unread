@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "SF display", sans-serif;
+  box-sizing: border-box;
 }
 header {
   width: 85vw;
@@ -227,7 +228,7 @@ i {
 .onsar {
   color: #ffffff;
 }
-.divide{
+.divide {
   height: 85px;
   margin-top: -450px;
   display: flex;
@@ -237,53 +238,53 @@ i {
   align-items: center;
   justify-content: space-between;
 }
-.divide p{
+.divide p {
   color: #ffffff;
   font-size: 18px;
   font-weight: bold;
 }
-.little{
+.little {
   width: 52.6px;
   height: 27px;
   border-radius: 25px;
   background-color: rgb(255, 255, 255, 0.6);
 }
-.first{
+.first {
   width: 244px;
   height: 360px;
   background-image: url(./deadpool.jpg);
   background-size: 100%;
   border-radius: 9px;
 }
-.second{
+.second {
   width: 244px;
   height: 360px;
   background-image: url(./trash.jpg);
   background-size: 100%;
   border-radius: 9px;
 }
-.third{
+.third {
   width: 244px;
   height: 360px;
   background-image: url(./ape.avif);
   background-size: 100%;
   border-radius: 9px;
 }
-.fourth{
+.fourth {
   width: 244px;
   height: 360px;
   background-image: url(./avatar.avif);
   background-size: 100%;
   border-radius: 9px;
 }
-.fifth{
+.fifth {
   width: 244px;
   height: 360px;
   background-image: url(./batman.jpg);
   background-size: 100%;
   border-radius: 9px;
 }
-.dots{
+.dots {
   box-sizing: border-box;
   width: 90%;
   height: 40px;
@@ -292,47 +293,46 @@ i {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
-.dotm{
+.dotm {
   background-color: #0078f6;
   border-radius: 50%;
   height: 5px;
   width: 5px;
 }
-.dots p{
+.dots p {
   color: #ffffff;
   font-size: 11px;
 }
-.views{
+.views {
   display: flex;
   flex-direction: column;
   margin-top: 200px;
   height: 100px;
   gap: 20px;
 }
-.views i{
+.views i {
   font-size: 11px;
   color: #ffffff;
   margin-left: 20px;
 }
-.views p{
+.views p {
   font-size: 12px;
   color: #ffffff;
   margin-left: 5px;
 }
-.views h5{
+.views h5 {
   color: #ffffff;
   margin-left: 20px;
   font-size: 15px;
 }
-.lgo{
+.lgo {
   display: flex;
 }
-.blue{
+.blue {
   color: #ffffff;
-  background-color:#0077b5;
-  width: 100px;
+  background-color: #0077b5;
+  max-width: 150px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -341,10 +341,120 @@ i {
   font-size: 12px;
   padding: 3px 0px;
 }
-.packcards{
+.packcards {
   display: flex;
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-evenly;
+}
+.part3 {
+  width: 100vw;
+  background-color: #fafafa;
+  display: flex;
+  margin-top: -116px;
+  flex-direction: column;
+}
+.pro1 {
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+  background-image: url(./images/joker.jpg);
+  background-size: 100%;
+}
+.pros1 {
+  display: flex;
+  min-width: 500px;
+  gap: 8px;
+}
+.pros2 {
+  display: flex;
+  gap: 8px;
+  flex-direction: row-reverse;
+}
+.ners .ner {
+  color: #000000;
+}
+.ners .onsar {
+  color: #888888;
+}
+.bigcard {
+  width: 739px;
+  height: 183px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border-top-right-radius: 27px;
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.article {
+  width: 739px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+.article-right {
+  align-self: flex-end;
+  align-items: flex-end;
+}
+.bigcard2 {
+  width: 739px;
+  height: 183px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border-top-right-radius: 27px;
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  gap: 120px;
+}
+.wholebody {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.le {
+  display: flex;
+  width: 50%;
+  height: 40%;
+  flex-direction: column;
+}
+.etseg {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.tusdaa {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.etseg p {
+  color: #0078f6;
+  font-size: 12px;
+}
+.etseg h5 {
+  font-size: 21px;
+  color: #000000;
+  margin-left: 10px;
+}
+.ri {
+  background-image: url(images/zurg.jpg);
+  width: 135px;
+  height: 135px;
+  background-size: 100%;
+  border-radius: 40px;
 }
