@@ -229,7 +229,7 @@ i {
 .ners .ner {
   color: #000000;
 }
-.ners .name:hover{
+.ners .name:hover {
   color: #ffffff;
 }
 .onsar {
@@ -264,7 +264,7 @@ i {
   border-radius: 9px;
   transition: all 0.5s ease;
 }
-.first:hover{
+.first:hover {
   scale: 1.1;
 }
 .second {
@@ -275,7 +275,7 @@ i {
   border-radius: 9px;
   transition: all 0.5s ease;
 }
-.second:hover{
+.second:hover {
   scale: 1.1;
 }
 .third {
@@ -286,7 +286,7 @@ i {
   border-radius: 9px;
   transition: all 0.5s ease;
 }
-.third:hover{
+.third:hover {
   scale: 1.1;
 }
 .fourth {
@@ -297,7 +297,7 @@ i {
   border-radius: 9px;
   transition: all 0.5s ease;
 }
-.fourth:hover{
+.fourth:hover {
   scale: 1.1;
 }
 .fifth {
@@ -308,7 +308,7 @@ i {
   border-radius: 9px;
   transition: all 0.5s ease;
 }
-.fifth:hover{
+.fifth:hover {
   scale: 1.1;
 }
 .dots {
@@ -381,7 +381,7 @@ i {
   display: flex;
   margin-top: -116px;
   flex-direction: column;
-  border-bottom-left-radius:36px;
+  border-bottom-left-radius: 36px;
   border-bottom-right-radius: 36px;
   z-index: 0;
 }
@@ -431,19 +431,19 @@ i {
   margin-top: 30px;
   margin-bottom: 100px;
 }
-.article:hover .bigcard{
+.article:hover .bigcard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transform: translate(0,-10px);
+  transform: translate(0, -10px);
 }
-.article-right:hover .bigcard2{
+.article-right:hover .bigcard2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transform: translate(0,-10px);
+  transform: translate(0, -10px);
 }
-.article-right:hover .pros2{
-  transform: translate(0,-10px);
+.article-right:hover .pros2 {
+  transform: translate(0, -10px);
 }
-.article:hover .pros1{
-  transform: translate(0,-10px);
+.article:hover .pros1 {
+  transform: translate(0, -10px);
 }
 .article-right {
   align-self: flex-end;
@@ -552,6 +552,8 @@ i {
   border-radius: 18px;
   background-image: url(images/item1.png);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
 .item2 {
   border-radius: 18px;
@@ -559,6 +561,8 @@ i {
   grid-row: 1/2;
   background-image: url(images/item2.jpeg);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
 .item3 {
   border-radius: 18px;
@@ -566,6 +570,8 @@ i {
   grid-row: 1/2;
   background-image: url(images/item3.jpeg);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
 .item4 {
   border-radius: 18px;
@@ -573,6 +579,8 @@ i {
   grid-row: 3/4;
   background-image: url(images/item4.jpeg);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
 .item5 {
   border-radius: 18px;
@@ -580,6 +588,8 @@ i {
   grid-row: 3/4;
   background-image: url(images/item5.jpeg);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
 .item6 {
   grid-row: 2/4;
@@ -587,6 +597,8 @@ i {
   border-radius: 18px;
   background-image: url(images/item7.jpeg);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
 .item7 {
   grid-row: 2/4;
@@ -594,6 +606,8 @@ i {
   border-radius: 18px;
   background-image: url(images/item6.jpeg);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
 .item8 {
   grid-column: 1/3;
@@ -601,6 +615,8 @@ i {
   border-radius: 18px;
   background-image: url(images/item8.jpeg);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
 .item9 {
   border-radius: 18px;
@@ -608,6 +624,8 @@ i {
   grid-row: 1/2;
   background-image: url(images/item9.jpeg);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
 .item10 {
   border-radius: 18px;
@@ -615,6 +633,8 @@ i {
   grid-row: 1/2;
   background-image: url(images/item10.jpeg);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
 .item11 {
   border-radius: 18px;
@@ -622,6 +642,8 @@ i {
   grid-row: 3/4;
   background-image: url(images/item11.jpeg);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
 .item12 {
   border-radius: 18px;
@@ -629,6 +651,8 @@ i {
   grid-row: 3/4;
   background-image: url(images/item12.jpeg);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
 .item13 {
   grid-row: 2/4;
@@ -636,6 +660,8 @@ i {
   border-radius: 18px;
   background-image: url(images/item13.jpeg);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
 .item14 {
   grid-row: 2/4;
@@ -643,33 +669,41 @@ i {
   border-radius: 18px;
   background-image: url(images/item14.jpeg);
   background-size: 100%;
+  display: flex;
+  align-items: end;
 }
-footer{
+.hagas {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(0, 0, 0, 20%);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+footer {
   background-color: #000000;
   width: 100vw;
-  margin-top:-30px;
+  margin-top: -30px;
   position: absolute;
   z-index: -1;
 }
-.footer-space{
+.footer-space {
   width: 70vw;
   margin-left: auto;
   margin-right: auto;
   display: grid;
   grid-template-columns: 30vw, 50vw;
   grid-row: 1000px 100px;
-
 }
-.footer-left{
+.footer-left {
   width: 30vw;
   padding-top: 50px;
   display: grid;
-  grid-template-columns: repeat(2,144px);
-  grid-template-rows: repeat(5,90px);
+  grid-template-columns: repeat(2, 144px);
+  grid-template-rows: repeat(5, 90px);
   gap: 20px;
 }
 
-.footer-right{
+.footer-right {
   width: 40vw;
   height: 600px;
   background-color: #0077b5;
@@ -677,7 +711,7 @@ footer{
   grid-row: 1/2;
   padding-top: 50px;
 }
-.footer-icons{
+.footer-icons {
   width: 70vw;
   height: 200px;
   grid-column: 1/3;
@@ -687,30 +721,30 @@ footer{
   align-items: center;
   justify-content: space-between;
 }
-.footer-icons .fa-square-facebook:hover{
-  color: #1877F2;
+.footer-icons .fa-square-facebook:hover {
+  color: #1877f2;
 }
-.footer-icons .fa-brands{
+.footer-icons .fa-brands {
   font-size: 32px;
   color: rgb(255, 255, 255, 0.6);
   transition: all 0.5s ease;
 }
-.footer-icons .fa-twitter:hover{
-  color: #1DA1F2;
+.footer-icons .fa-twitter:hover {
+  color: #1da1f2;
 }
-.footer-icons .fa-instagram:hover{
-  color: #E4405F;
+.footer-icons .fa-instagram:hover {
+  color: #e4405f;
 }
-.footer-icons .fa-linkedin-in:hover{
-  color: #0A66C2;
+.footer-icons .fa-linkedin-in:hover {
+  color: #0a66c2;
 }
-.footer-icons .fa-youtube:hover{
-  color: #CD201F;
+.footer-icons .fa-youtube:hover {
+  color: #cd201f;
 }
-.footer-icons .fa-soundcloud:hover{
-  color: #FF6600;
+.footer-icons .fa-soundcloud:hover {
+  color: #ff6600;
 }
-.footer-box{
+.footer-box {
   width: 323px;
   height: 90px;
   background-image: url(./zurg.png);
@@ -722,12 +756,12 @@ footer{
   grid-column: 1/3;
   grid-row: 3/4;
 }
-.footer-zurag{
+.footer-zurag {
   grid-column: 1/3;
   grid-row: 1/2;
   padding-top: 50px;
 }
-.footer-box1{
+.footer-box1 {
   width: 323px;
   height: 90px;
   background-image: url(./zurg.png);
@@ -738,37 +772,35 @@ footer{
   gap: 40px;
   grid-column: 1/3;
   grid-row: 2/3;
-
-
 }
-.orshil p{
+.orshil p {
   color: rgb(255, 255, 255, 0.6);
   font-size: 11px;
 }
-.orshil h5{
+.orshil h5 {
   color: rgb(255, 255, 255);
   font-size: 13px;
 }
-.box-container{
+.box-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.outbox{
+.outbox {
   height: 60px;
   width: 60px;
   border-radius: 50px;
   position: absolute;
   background-color: #888888;
 }
-.insidebox{
+.insidebox {
   height: 40px;
   width: 40px;
   border-radius: 50px;
   background-color: aqua;
   position: relative;
 }
-.google{
+.google {
   background-image: url(./google.png);
   height: 45px;
   width: 144px;
@@ -776,7 +808,7 @@ footer{
   grid-column: 1/2;
   grid-row: 5/6;
 }
-.apple{
+.apple {
   background-image: url(./apple.png);
   height: 45px;
   width: 144px;
@@ -784,4 +816,3 @@ footer{
   grid-column: 2/3;
   grid-row: 5/6;
 }
-
