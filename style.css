@@ -1041,3 +1041,5 @@ footer {
   transform: translateX(5px);
   color: #ffffff;
 }
+@media (max-width: 500px) {
+}
