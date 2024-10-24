@@ -1042,4 +1042,74 @@ footer {
   color: #ffffff;
 }
 @media (max-width: 500px) {
+  .left {
+    display: none;
+  }
+  .right {
+    margin-left: -550px;
+  }
+  .right h1 {
+    font-size: 24px;
+  }
+  .right h2 {
+    font-size: 28px;
+  }
+  .hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .first {
+    width: 144px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .second {
+    width: 144px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .third {
+    width: 144px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .fourth {
+    display: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .fifth {
+    display: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .views {
+    margin-top: 0;
+    height: 50px;
+  }
+  .pros {
+    margin-top: 30px;
+  }
+  .packcards {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+  }
+  .hero {
+    margin-bottom: 0;
+    height: 960px;
+  }
+  .divide {
+    margin-top: -400px;
+  }
 }
